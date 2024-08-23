@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Core\Application\TestFeatApp.App.FAppCommon\TestFeatApp.App.FAppCommon.csproj" />
+    <ProjectReference Include="..\TestFeatApp.Infra.Configuration\TestFeatApp.Infra.Configuration.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+</Project>

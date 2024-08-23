@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Modules\ModuleB\TestFeatApp.Infra.F7\TestFeatApp.Infra.F7.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Modules\ModuleA\TestFeatApp.Infra.F1\TestFeatApp.Infra.F1.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Modules\ModuleA\TestFeatApp.Infra.F3\TestFeatApp.Infra.F3.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Modules\ModuleA\TestFeatApp.Infra.F4\TestFeatApp.Infra.F4.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Modules\ModuleB\TestFeatApp.Infra.F2\TestFeatApp.Infra.F2.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Modules\ModuleB\TestFeatApp.Infra.F5\TestFeatApp.Infra.F5.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Modules\ModuleB\TestFeatApp.Infra.F6\TestFeatApp.Infra.F6.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+</Project>

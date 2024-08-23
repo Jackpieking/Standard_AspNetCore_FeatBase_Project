@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Core\Application\ModuleA\TestFeatApp.App.F3\TestFeatApp.App.F3.csproj" />
+    <ProjectReference Include="..\..\..\Common\TestFeatApp.Infra.DependencyInjectionLib\TestFeatApp.Infra.DependencyInjectionLib.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+</Project>
